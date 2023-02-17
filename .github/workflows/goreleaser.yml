@@ -23,7 +23,7 @@ jobs:
       -
         name: Install garble
         run: |
-          go install mvdan.cc/garble@master
+          go install mvdan.cc/garble@latest
           sudo cp garble-literals.sh /usr/bin/garble-literals
           sudo chmod +x /usr/bin/garble-literals
       -
