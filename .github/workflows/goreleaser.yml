@@ -38,7 +38,7 @@ jobs:
           version: latest
           args: release --clean
           builds:
-            - no_main_check: true
+            - skip: true
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
